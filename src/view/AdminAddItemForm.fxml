@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminAddItemFormController">
+   <children>
+      <JFXTextField fx:id="txtPackSize" focusColor="#3b5ab9" layoutX="56.0" layoutY="215.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Pack Size" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtUnitPrice" focusColor="#3b5ab9" layoutX="56.0" layoutY="283.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Unit Price" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtQonHand" focusColor="#3b5ab9" layoutX="56.0" layoutY="348.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Quantity On Hand" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="470.0" layoutY="501.0" onAction="#clearTxtOnAction" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #FF6E6E;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtDescription" focusColor="#3b5ab9" layoutX="56.0" layoutY="150.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Description" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="56.0" layoutY="8.0" text="Add Item" textFill="#2609ff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="605.0" layoutY="502.0" onAction="#addItemOnAction" prefHeight="15.0" prefWidth="120.0" style="-fx-background-color: #64FF64;" text="Add Item" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <Pane layoutY="44.0" prefHeight="35.0" prefWidth="885.0" style="-fx-background-color: #B097C7;" />
+      <JFXTextField fx:id="txtDiscount" focusColor="#3b5ab9" layoutX="56.0" layoutY="422.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Discount" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtItemCode" focusColor="#3b5ab9" layoutX="56.0" layoutY="96.0" opacity="0.7" prefHeight="48.0" prefWidth="448.0" promptText="Item Code" unFocusColor="#be21da">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>
